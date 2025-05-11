@@ -1,0 +1,27 @@
+[0.667s] Invoking command in '/home/joel-jebitto/ROS_workspace/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joel-jebitto/ROS_workspace/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/joel-jebitto/ROS_workspace/build/my_py_pkg/build install --record /home/joel-jebitto/ROS_workspace/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[0.886s] running egg_info
+[0.904s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.905s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.905s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.905s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.905s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.940s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.941s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.941s] running build
+[0.941s] running build_py
+[0.941s] copying my_py_pkg/add_two_ints.py -> /home/joel-jebitto/ROS_workspace/build/my_py_pkg/build/lib/my_py_pkg
+[0.941s] running install
+[0.946s] running install_lib
+[0.964s] copying /home/joel-jebitto/ROS_workspace/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints.py -> /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[0.965s] byte-compiling /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints.py to add_two_ints.cpython-312.pyc
+[0.965s] running install_data
+[0.965s] running install_egg_info
+[0.983s] removing '/home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.983s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[0.984s] running install_scripts
+[1.094s] Installing add_two_ints_server script to /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/my_py_pkg
+[1.094s] Installing my_first_node script to /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/my_py_pkg
+[1.094s] Installing robot_news_station script to /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/my_py_pkg
+[1.095s] Installing smartphone script to /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/my_py_pkg
+[1.095s] writing list of installed files to '/home/joel-jebitto/ROS_workspace/build/my_py_pkg/install.log'
+[1.117s] Invoked command in '/home/joel-jebitto/ROS_workspace/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/joel-jebitto/ROS_workspace/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/joel-jebitto/ROS_workspace/build/my_py_pkg/build install --record /home/joel-jebitto/ROS_workspace/build/my_py_pkg/install.log --single-version-externally-managed install_data
