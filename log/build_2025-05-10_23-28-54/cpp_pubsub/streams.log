@@ -1,0 +1,46 @@
+[0.016s] Invoking command in '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel-jebitto/ROS_workspace/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joel-jebitto/ROS_workspace/build/cpp_pubsub -- -j8 -l8
+[0.031s] 
+[0.032s] [0/1] Re-running CMake...[K
+[0.050s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.264s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.292s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.301s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.314s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.389s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.390s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.453s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.520s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.669s] -- Configuring done (0.6s)
+[0.688s] -- Generating done (0.0s)
+[0.701s] -- Build files have been written to: /home/joel-jebitto/ROS_workspace/build/cpp_pubsub
+[0.714s] 
+[8.159s] [0/2] Building CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[K
+[8.160s] [1/2] Building CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[K
+[8.392s] [1/2] Linking CXX executable number_counter[K
+[8.392s] [2/2] Linking CXX executable number_counter[K
+[8.394s] Invoked command in '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel-jebitto/ROS_workspace/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joel-jebitto/ROS_workspace/build/cpp_pubsub -- -j8 -l8
+[8.401s] Invoking command in '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel-jebitto/ROS_workspace/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joel-jebitto/ROS_workspace/build/cpp_pubsub
+[8.408s] -- Install configuration: ""
+[8.408s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/lib/cpp_pubsub/talker
+[8.408s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/lib/cpp_pubsub/station
+[8.409s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/lib/cpp_pubsub/number_publisher
+[8.409s] -- Installing: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/lib/cpp_pubsub/number_counter
+[8.412s] -- Set non-toolchain portion of runtime path of "/home/joel-jebitto/ROS_workspace/install/cpp_pubsub/lib/cpp_pubsub/number_counter" to ""
+[8.412s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/lib/cpp_pubsub/phone
+[8.412s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[8.413s] -- Installing: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[8.413s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[8.414s] -- Up-to-date: /home/joel-jebitto/ROS_workspace/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[8.414s] Invoked command in '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel-jebitto/ROS_workspace/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/joel-jebitto/ROS_workspace/build/cpp_pubsub

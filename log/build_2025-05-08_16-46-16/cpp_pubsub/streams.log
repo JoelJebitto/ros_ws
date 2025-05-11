@@ -1,0 +1,50 @@
+[0.012s] Invoking command in '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joel-jebitto/ROS_workspace/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/joel-jebitto/ROS_workspace/install/cpp_pubsub
+[0.053s] -- The C compiler identification is GNU 13.3.0
+[0.095s] -- The CXX compiler identification is GNU 13.3.0
+[0.109s] -- Detecting C compiler ABI info
+[0.150s] -- Detecting C compiler ABI info - done
+[0.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.158s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.166s] -- Detecting CXX compiler ABI info
+[0.218s] -- Detecting CXX compiler ABI info - done
+[0.226s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.226s] -- Detecting CXX compile features
+[0.226s] -- Detecting CXX compile features - done
+[0.228s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.336s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.414s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.445s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.455s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.548s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.550s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.604s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.621s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.639s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.705s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.786s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.786s] -- Configured cppcheck include dirs: 
+[0.787s] -- Configured cppcheck exclude dirs and/or files: 
+[0.787s] -- Added test 'lint_cmake' to check CMake code style
+[0.788s] -- Added test 'uncrustify' to check C / C++ code style
+[0.788s] -- Configured uncrustify additional arguments: 
+[0.789s] -- Added test 'xmllint' to check XML markup files
+[0.790s] -- Configuring done (0.8s)
+[0.796s] -- Generating done (0.0s)
+[0.806s] -- Build files have been written to: /home/joel-jebitto/ROS_workspace/build/cpp_pubsub
+[0.814s] Invoked command in '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joel-jebitto/ROS_workspace/src/cpp_pubsub -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -G Ninja -DCMAKE_INSTALL_PREFIX=/home/joel-jebitto/ROS_workspace/install/cpp_pubsub
+[0.815s] Invoking command in '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joel-jebitto/ROS_workspace/build/cpp_pubsub -- -j8 -l8
+[0.824s] 
+[3.293s] [0/2] Building CXX object CMakeFiles/talker.dir/src/talker.cpp.o[K
+[3.293s] [1/2] Building CXX object CMakeFiles/talker.dir/src/talker.cpp.o[K
+[3.395s] [1/2] Linking CXX executable talker[K
+[3.396s] [2/2] Linking CXX executable talker[K
+[3.396s] [31mFAILED: [0mtalker 
+[3.396s] : && /usr/bin/c++   CMakeFiles/talker.dir/src/talker.cpp.o -o talker  -Wl,-rpath,/opt/ros/jazzy/lib:  /opt/ros/jazzy/lib/librclcpp.so  /opt/ros/jazzy/lib/liblibstatistics_collector.so  /opt/ros/jazzy/lib/librcl.so  /opt/ros/jazzy/lib/librmw_implementation.so  /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_c.so  /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_c.so  /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_fastrtps_cpp.so  /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_introspection_cpp.so  /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_cpp.so  /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_py.so  /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_typesupport_c.so  /opt/ros/jazzy/lib/libtype_description_interfaces__rosidl_generator_c.so  /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so  /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so  /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so  /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so  /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_cpp.so  /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_py.so  /opt/ros/jazzy/lib/librcl_interfaces__rosidl_typesupport_c.so  /opt/ros/jazzy/lib/librcl_interfaces__rosidl_generator_c.so  /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so  /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_c.so  /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so  /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so  /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so  /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_c.so  /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so  /opt/ros/jazzy/lib/librcl_yaml_param_parser.so  /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so  /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so  /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so  /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so  /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so  /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_py.so  /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_typesupport_c.so  /opt/ros/jazzy/lib/librosgraph_msgs__rosidl_generator_c.so  /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so  /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so  /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so  /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so  /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so  /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_py.so  /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so  /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so  /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so  /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so  /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so  /opt/ros/jazzy/lib/librmw.so  /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so  /opt/ros/jazzy/lib/libfastcdr.so.2.2.5  /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so  /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so  /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so  /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so  /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so  /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so  /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so  /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so  /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so  /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so  /opt/ros/jazzy/lib/librosidl_typesupport_c.so  /opt/ros/jazzy/lib/librcpputils.so  /opt/ros/jazzy/lib/librosidl_runtime_c.so  /opt/ros/jazzy/lib/libtracetools.so  -llttng-ust  -llttng-ust-common  -rdynamic  -ldl  /opt/ros/jazzy/lib/librcl_logging_interface.so  /opt/ros/jazzy/lib/librcutils.so  -ldl  -Wl,-rpath-link,/opt/ros/jazzy/lib && :
+[3.396s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[3.396s] (.text+0x1b): undefined reference to `main'
+[3.396s] collect2: error: ld returned 1 exit status
+[3.396s] ninja: build stopped: subcommand failed.
+[3.397s] Invoked command in '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joel-jebitto/ROS_workspace/build/cpp_pubsub -- -j8 -l8
