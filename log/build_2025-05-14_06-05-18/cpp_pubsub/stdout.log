@@ -1,0 +1,160 @@
+
+[0/1] Re-running CMake...[K
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+-- Configuring done (1.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/joel-jebitto/ROS_workspace/build/cpp_pubsub
+
+[0/4] Building CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[K
+[0/4] Building CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[K
+[1/4] Building CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[K
+[31mFAILED: [0mCMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o 
+/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/example_interfaces -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o -MF CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o.d -o CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o -c /home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp
+In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171,
+                 from /home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:2:
+/usr/include/c++/13/functional: In instantiation of ‘struct std::_Bind_check_arity<void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>’:
+/usr/include/c++/13/functional:859:12:   required from ‘struct std::_Bind_helper<false, void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>’
+/usr/include/c++/13/functional:881:5:   required by substitution of ‘template<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _BoundArgs = {}]’
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:51:   required from here
+/usr/include/c++/13/functional:847:21: error: static assertion failed: Wrong number of arguments for pointer-to-member
+  846 |       static_assert(_Varargs::value
+      |                               ~~~~~
+  847 |                     ? sizeof...(_BoundArgs) >= _Arity::value + 1
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  848 |                     : sizeof...(_BoundArgs) == _Arity::value + 1,
+      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/include/c++/13/functional:847:21: note: ‘(false ? (0 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (0 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))’ evaluates to false
+/usr/include/c++/13/functional: In substitution of ‘template<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [with _Fn = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _BArgs = _CallArgs; _Functor = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _Bound_args = {}]’:
+/usr/include/c++/13/functional:556:8:   required from ‘class std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>’
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:51:   required from here
+/usr/include/c++/13/functional:552:15: error: no type named ‘type’ in ‘struct std::result_of<void (AddTwoIntsClient::*&())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>’
+  552 |         using _Res_type_impl
+      |               ^~~~~~~~~~~~~~
+/usr/include/c++/13/functional: In substitution of ‘template<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [with _Fn = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _CallArgs = std::tuple<_UTypes ...>; _BArgs = {}; _Functor = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _Bound_args = {}]’:
+/usr/include/c++/13/functional:556:8:   required by substitution of ‘template<class _Functor, class ... _Bound_args> template<class _CallArgs> using std::_Bind<_Functor(_Bound_args ...)>::_Res_type = std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl<_Functor, _CallArgs, _Bound_args ...> [with _CallArgs = std::tuple<_UTypes ...>; _Functor = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _Bound_args = {}]’
+/usr/include/c++/13/functional:589:2:   required from ‘class std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>’
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:51:   required from here
+/usr/include/c++/13/functional:552:15: error: no type named ‘type’ in ‘struct std::result_of<void (AddTwoIntsClient::*&())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>’
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp: In member function ‘void AddTwoIntsClient::callbackCallAddtwoInts(rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFuture)’:
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:5: error: invalid use of non-static member function ‘rclcpp::Logger rclcpp::Node::get_logger() const’
+   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);
+      |     ^~~~~~~~~~~
+In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172:
+/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:144:3: note: declared here
+  144 |   get_logger() const;
+      |   ^~~~~~~~~~
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:5: error: template argument 1 is invalid
+   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);
+      |     ^~~~~~~~~~~
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:5: error: template argument 1 is invalid
+   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);
+      |     ^~~~~~~~~~~
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:5: error: template argument 1 is invalid
+   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);
+      |     ^~~~~~~~~~~
+In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24:
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:23: error: invalid use of member function ‘rclcpp::Logger rclcpp::Node::get_logger() const’ (did you forget the ‘()’ ?)
+   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);
+      |                       ^
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:23: error: invalid use of member function ‘rclcpp::Logger rclcpp::Node::get_logger() const’ (did you forget the ‘()’ ?)
+   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);
+      |                       ^
+In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21:
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp: In instantiation of ‘rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(SharedRequest, CallbackT&&) [with CallbackT = std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = 0; ServiceT = example_interfaces::srv::AddTwoInts; SharedRequest = std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >]’:
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:32:   required from here
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:678:22: error: no matching function for call to ‘std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>::function(<brace-enclosed initializer list>)’
+  678 |       std::make_tuple(
+      |       ~~~~~~~~~~~~~~~^
+  679 |         CallbackType{std::forward<CallbackT>(cb)},
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  680 |         shared_future,
+      |         ~~~~~~~~~~~~~~
+  681 |         std::move(promise)));
+      |         ~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/13/functional:59:
+/usr/include/c++/13/bits/std_function.h:435:9: note: candidate: ‘template<class _Functor, class _Constraints> std::function<_Res(_ArgTypes ...)>::function(_Functor&&) [with _Constraints = _Functor; _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}]’
+  435 |         function(_Functor&& __f)
+      |         ^~~~~~~~
+/usr/include/c++/13/bits/std_function.h:435:9: note:   template argument deduction/substitution failed:
+In file included from /usr/include/c++/13/bits/stl_pair.h:60,
+                 from /usr/include/c++/13/bits/stl_algobase.h:64,
+                 from /usr/include/c++/13/algorithm:60,
+                 from /opt/ros/jazzy/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:11,
+                 from /opt/ros/jazzy/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7,
+                 from /home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:1:
+/usr/include/c++/13/type_traits: In substitution of ‘template<bool _Cond, class _Tp> using std::__enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]’:
+/usr/include/c++/13/bits/std_function.h:353:8:   required by substitution of ‘template<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using std::function<_Res(_ArgTypes ...)>::_Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>::_Callable<std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>, std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>, std::__invoke_result<std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>&, std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > > > >; _Tp = void; _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}]’
+/usr/include/c++/13/bits/std_function.h:434:9:   required from ‘rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(SharedRequest, CallbackT&&) [with CallbackT = std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = 0; ServiceT = example_interfaces::srv::AddTwoInts; SharedRequest = std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >]’
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:32:   required from here
+/usr/include/c++/13/type_traits:116:11: error: no type named ‘type’ in ‘struct std::enable_if<false, void>’
+  116 |     using __enable_if_t = typename enable_if<_Cond, _Tp>::type;
+      |           ^~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp: In instantiation of ‘rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(SharedRequest, CallbackT&&) [with CallbackT = std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = 0; ServiceT = example_interfaces::srv::AddTwoInts; SharedRequest = std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >]’:
+/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:32:   required from here
+/usr/include/c++/13/bits/std_function.h:404:7: note: candidate: ‘std::function<_Res(_ArgTypes ...)>::function(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}]’
+  404 |       function(function&& __x) noexcept
+      |       ^~~~~~~~
+/usr/include/c++/13/bits/std_function.h:404:27: note:   no known conversion for argument 1 from ‘std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>’ to ‘std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>&&’
+  404 |       function(function&& __x) noexcept
+      |                ~~~~~~~~~~~^~~
+/usr/include/c++/13/bits/std_function.h:386:7: note: candidate: ‘std::function<_Res(_ArgTypes ...)>::function(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}]’
+  386 |       function(const function& __x)
+      |       ^~~~~~~~
+/usr/include/c++/13/bits/std_function.h:386:32: note:   no known conversion for argument 1 from ‘std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>’ to ‘const std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>&’
+  386 |       function(const function& __x)
+      |                ~~~~~~~~~~~~~~~~^~~
+/usr/include/c++/13/bits/std_function.h:375:7: note: candidate: ‘std::function<_Res(_ArgTypes ...)>::function(std::nullptr_t) [with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}; std::nullptr_t = std::nullptr_t]’
+  375 |       function(nullptr_t) noexcept
+      |       ^~~~~~~~
+/usr/include/c++/13/bits/std_function.h:375:16: note:   no known conversion for argument 1 from ‘std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>’ to ‘std::nullptr_t’
+  375 |       function(nullptr_t) noexcept
+      |                ^~~~~~~~~
+/usr/include/c++/13/bits/std_function.h:368:7: note: candidate: ‘std::function<_Res(_ArgTypes ...)>::function() [with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}]’
+  368 |       function() noexcept
+      |       ^~~~~~~~
+/usr/include/c++/13/bits/std_function.h:368:7: note:   candidate expects 0 arguments, 1 provided
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:682:69: error: no matching function for call to ‘rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFutureAndRequestId::SharedFutureAndRequestId(<brace-enclosed initializer list>)’
+  682 |     return SharedFutureAndRequestId{std::move(shared_future), req_id};
+      |                                                                     ^
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:66:3: note: candidate: ‘rclcpp::detail::FutureAndRequestId<FutureT>::FutureAndRequestId(FutureT, int64_t) [with FutureT = std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >; int64_t = long int]’
+   66 |   FutureAndRequestId(FutureT impl, int64_t req_id)
+      |   ^~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75: note:   inherited here
+  465 |     using detail::FutureAndRequestId<std::shared_future<SharedResponse>>::FutureAndRequestId;
+      |                                                                           ^~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75: note:   conversion of argument 2 would be ill-formed:
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:108:3: note: candidate: ‘rclcpp::detail::FutureAndRequestId<FutureT>::FutureAndRequestId(rclcpp::detail::FutureAndRequestId<FutureT>&&) [with FutureT = std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >]’
+  108 |   FutureAndRequestId(FutureAndRequestId && other) noexcept = default;
+      |   ^~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75: note:   inherited here
+  465 |     using detail::FutureAndRequestId<std::shared_future<SharedResponse>>::FutureAndRequestId;
+      |                                                                           ^~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75: note:   candidate expects 1 argument, 2 provided
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:462:10: note: candidate: ‘rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFutureAndRequestId::SharedFutureAndRequestId(rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFutureAndRequestId&&)’
+  462 |   struct SharedFutureAndRequestId
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:462:10: note:   candidate expects 1 argument, 2 provided
+
+[2/4] Building CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[K
+ninja: build stopped: subcommand failed.

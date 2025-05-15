@@ -1,0 +1,11 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "cmake.sourceDirectory": "/home/joel-jebitto/ROS_workspace/src/cpp_pubsub"
+}

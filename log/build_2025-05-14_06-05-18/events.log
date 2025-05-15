@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.000820] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000965] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict()}
+[0.000993] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.008200] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.019538] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.020900] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.021040] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2647-1-asus-tuf-f15_TIME494254', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'joel-jebitto', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/joel-jebitto', 'OLDPWD': '/home/joel-jebitto', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/joel-jebitto/.nvm/versions/node/v22.15.0/bin', 'NVM_INC': '/home/joel-jebitto/.nvm/versions/node/v22.15.0/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2206', 'SYSTEMD_EXEC_PID': '2647', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4762', 'NVM_DIR': '/home/joel-jebitto/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/joel-jebitto/ROS_workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'joel-jebitto', 'JOURNAL_STREAM': '9:22570', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'joel-jebitto', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/joel-jebitto/.nvm/versions/node/v22.15.0/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/joel-jebitto/.local/share/JetBrains/Toolbox/scripts:/home/joel-jebitto/.local/share/JetBrains/Toolbox/scripts', 'SESSION_MANAGER': 'local/asus-tuf-f15:@/tmp/.ICE-unix/2609,unix/asus-tuf-f15:/tmp/.ICE-unix/2609', 'INVOCATION_ID': '2b801118bc8d47e582637e34451eaedd', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/joel-jebitto/ROS_workspace/install/my_py_pkg:/home/joel-jebitto/ROS_workspace/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:ea3aac4d-96ce-488e-a724-729a0686f55e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/joel-jebitto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/joel-jebitto/ROS_workspace/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy/:/home/joel-jebitto/ROS_workspace/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.046168] (cpp_pubsub) StdoutLine: {'line': b'\n'}
+[0.046564] (cpp_pubsub) StdoutLine: {'line': b'[0/1] Re-running CMake...\x1b[K\n'}
+[0.094718] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099831] (-) TimerEvent: {}
+[0.200214] (-) TimerEvent: {}
+[0.300563] (-) TimerEvent: {}
+[0.400869] (-) TimerEvent: {}
+[0.440131] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.483739] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.498138] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.500949] (-) TimerEvent: {}
+[0.517829] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.541557] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601855] (-) TimerEvent: {}
+[0.646404] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.650693] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701940] (-) TimerEvent: {}
+[0.765065] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.802091] (-) TimerEvent: {}
+[0.880323] (cpp_pubsub) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[0.902320] (-) TimerEvent: {}
+[1.002799] (-) TimerEvent: {}
+[1.103175] (-) TimerEvent: {}
+[1.188183] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[1.203330] (-) TimerEvent: {}
+[1.255870] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.310329] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/joel-jebitto/ROS_workspace/build/cpp_pubsub\n'}
+[1.310577] (-) TimerEvent: {}
+[1.352012] (cpp_pubsub) StdoutLine: {'line': b'\n'}
+[1.354351] (cpp_pubsub) StdoutLine: {'line': b'[0/4] Building CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o\x1b[K\n'}
+[1.410661] (-) TimerEvent: {}
+[1.464287] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/joel-jebitto/ROS_workspace/build/my_py_pkg/build', 'install', '--record', '/home/joel-jebitto/ROS_workspace/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/joel-jebitto/ROS_workspace/src/my_py_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2647-1-asus-tuf-f15_TIME494254', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'joel-jebitto', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/joel-jebitto', 'OLDPWD': '/home/joel-jebitto', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/joel-jebitto/.nvm/versions/node/v22.15.0/bin', 'NVM_INC': '/home/joel-jebitto/.nvm/versions/node/v22.15.0/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2206', 'SYSTEMD_EXEC_PID': '2647', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4762', 'NVM_DIR': '/home/joel-jebitto/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/joel-jebitto/ROS_workspace/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'joel-jebitto', 'JOURNAL_STREAM': '9:22570', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'joel-jebitto', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/joel-jebitto/.nvm/versions/node/v22.15.0/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/joel-jebitto/.local/share/JetBrains/Toolbox/scripts:/home/joel-jebitto/.local/share/JetBrains/Toolbox/scripts', 'SESSION_MANAGER': 'local/asus-tuf-f15:@/tmp/.ICE-unix/2609,unix/asus-tuf-f15:/tmp/.ICE-unix/2609', 'INVOCATION_ID': '2b801118bc8d47e582637e34451eaedd', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/joel-jebitto/ROS_workspace/install/my_py_pkg:/home/joel-jebitto/ROS_workspace/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:ea3aac4d-96ce-488e-a724-729a0686f55e', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/joel-jebitto/ROS_workspace/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/joel-jebitto/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/joel-jebitto/ROS_workspace/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages:/home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/joel-jebitto/ROS_workspace/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy/'}, 'shell': False}
+[1.510954] (-) TimerEvent: {}
+[1.611257] (-) TimerEvent: {}
+[1.711590] (-) TimerEvent: {}
+[1.811895] (-) TimerEvent: {}
+[1.912380] (-) TimerEvent: {}
+[2.000136] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.013342] (-) TimerEvent: {}
+[2.041388] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[2.047904] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[2.048245] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[2.048465] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[2.048671] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[2.113431] (-) TimerEvent: {}
+[2.144570] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.145850] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[2.146758] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[2.146935] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.147560] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[2.160576] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.201109] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.201401] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.213533] (-) TimerEvent: {}
+[2.244022] (my_py_pkg) StdoutLine: {'line': b"removing '/home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.246089] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[2.246358] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.313935] (-) TimerEvent: {}
+[2.415207] (-) TimerEvent: {}
+[2.515735] (-) TimerEvent: {}
+[2.517433] (my_py_pkg) StdoutLine: {'line': b'Installing add_two_ints_server script to /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.520450] (my_py_pkg) StdoutLine: {'line': b'Installing my_first_node script to /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.520751] (my_py_pkg) StdoutLine: {'line': b'Installing robot_news_station script to /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.525404] (my_py_pkg) StdoutLine: {'line': b'Installing smartphone script to /home/joel-jebitto/ROS_workspace/install/my_py_pkg/lib/my_py_pkg\n'}
+[2.526080] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/joel-jebitto/ROS_workspace/build/my_py_pkg/install.log'\n"}
+[2.617504] (-) TimerEvent: {}
+[2.649453] (my_py_pkg) CommandEnded: {'returncode': 0}
+[2.712816] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[2.717554] (-) TimerEvent: {}
+[2.817857] (-) TimerEvent: {}
+[2.918183] (-) TimerEvent: {}
+[3.018576] (-) TimerEvent: {}
+[3.119112] (-) TimerEvent: {}
+[3.219322] (-) TimerEvent: {}
+[3.319599] (-) TimerEvent: {}
+[3.419913] (-) TimerEvent: {}
+[3.520287] (-) TimerEvent: {}
+[3.620522] (-) TimerEvent: {}
+[3.720808] (-) TimerEvent: {}
+[3.821062] (-) TimerEvent: {}
+[3.921802] (-) TimerEvent: {}
+[4.022326] (-) TimerEvent: {}
+[4.122674] (-) TimerEvent: {}
+[4.222947] (-) TimerEvent: {}
+[4.323236] (-) TimerEvent: {}
+[4.423561] (-) TimerEvent: {}
+[4.523793] (-) TimerEvent: {}
+[4.624029] (-) TimerEvent: {}
+[4.724360] (-) TimerEvent: {}
+[4.824637] (-) TimerEvent: {}
+[4.924880] (-) TimerEvent: {}
+[5.025154] (-) TimerEvent: {}
+[5.125474] (-) TimerEvent: {}
+[5.225788] (-) TimerEvent: {}
+[5.326289] (-) TimerEvent: {}
+[5.426548] (-) TimerEvent: {}
+[5.526851] (-) TimerEvent: {}
+[5.627155] (-) TimerEvent: {}
+[5.727464] (-) TimerEvent: {}
+[5.799011] (cpp_pubsub) StdoutLine: {'line': b'[0/4] Building CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[K\n'}
+[5.799491] (cpp_pubsub) StdoutLine: {'line': b'[1/4] Building CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o\x1b[K\n'}
+[5.799601] (cpp_pubsub) StdoutLine: {'line': b'\x1b[31mFAILED: \x1b[0mCMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o \n'}
+[5.799689] (cpp_pubsub) StdoutLine: {'line': b'/usr/bin/c++ -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DFASTCDR_DYN_LINK -isystem /opt/ros/jazzy/include/rclcpp -isystem /opt/ros/jazzy/include/example_interfaces -isystem /opt/ros/jazzy/include/builtin_interfaces -isystem /opt/ros/jazzy/include/rosidl_runtime_c -isystem /opt/ros/jazzy/include/rcutils -isystem /opt/ros/jazzy/include/rosidl_typesupport_interface -isystem /opt/ros/jazzy/include/fastcdr -isystem /opt/ros/jazzy/include/rosidl_runtime_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_cpp -isystem /opt/ros/jazzy/include/rmw -isystem /opt/ros/jazzy/include/rosidl_dynamic_typesupport -isystem /opt/ros/jazzy/include/rosidl_typesupport_fastrtps_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_c -isystem /opt/ros/jazzy/include/rosidl_typesupport_introspection_cpp -isystem /opt/ros/jazzy/include/libstatistics_collector -isystem /opt/ros/jazzy/include/rcl -isystem /opt/ros/jazzy/include/rcl_interfaces -isystem /opt/ros/jazzy/include/service_msgs -isystem /opt/ros/jazzy/include/rcl_logging_interface -isystem /opt/ros/jazzy/include/rcl_yaml_param_parser -isystem /opt/ros/jazzy/include/type_description_interfaces -isystem /opt/ros/jazzy/include/rcpputils -isystem /opt/ros/jazzy/include/statistics_msgs -isystem /opt/ros/jazzy/include/rosgraph_msgs -isystem /opt/ros/jazzy/include/rosidl_typesupport_cpp -isystem /opt/ros/jazzy/include/rosidl_typesupport_c -isystem /opt/ros/jazzy/include/tracetools -isystem /opt/ros/jazzy/include/action_msgs -isystem /opt/ros/jazzy/include/unique_identifier_msgs -Wall -Wextra -Wpedantic -MD -MT CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o -MF CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o.d -o CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o -c /home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp\n'}
+[5.799797] (cpp_pubsub) StdoutLine: {'line': b'In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19,\n'}
+[5.799881] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25,\n'}
+[5.799964] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27,\n'}
+[5.800044] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171,\n'}
+[5.800129] (cpp_pubsub) StdoutLine: {'line': b'                 from /home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:2:\n'}
+[5.800209] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional: In instantiation of \xe2\x80\x98struct std::_Bind_check_arity<void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>\xe2\x80\x99:\n'}
+[5.800302] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional:859:12:   required from \xe2\x80\x98struct std::_Bind_helper<false, void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>\xe2\x80\x99\n'}
+[5.800396] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional:881:5:   required by substitution of \xe2\x80\x98template<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...) [with _Func = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _BoundArgs = {}]\xe2\x80\x99\n'}
+[5.800476] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:51:   required from here\n'}
+[5.800552] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional:847:21: error: static assertion failed: Wrong number of arguments for pointer-to-member\n'}
+[5.800628] (cpp_pubsub) StdoutLine: {'line': b'  846 |       static_assert(_Varargs::value\n'}
+[5.800702] (cpp_pubsub) StdoutLine: {'line': b'      |                               ~~~~~\n'}
+[5.800776] (cpp_pubsub) StdoutLine: {'line': b'  847 |                     ? sizeof...(_BoundArgs) >= _Arity::value + 1\n'}
+[5.800850] (cpp_pubsub) StdoutLine: {'line': b'      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[5.800924] (cpp_pubsub) StdoutLine: {'line': b'  848 |                     : sizeof...(_BoundArgs) == _Arity::value + 1,\n'}
+[5.800997] (cpp_pubsub) StdoutLine: {'line': b'      |                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[5.801069] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional:847:21: note: \xe2\x80\x98(false ? (0 >= (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)) : (0 == (((long unsigned int)std::integral_constant<long unsigned int, 1>::value) + 1)))\xe2\x80\x99 evaluates to false\n'}
+[5.801152] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional: In substitution of \xe2\x80\x98template<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [with _Fn = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _BArgs = _CallArgs; _Functor = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _Bound_args = {}]\xe2\x80\x99:\n'}
+[5.801235] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional:556:8:   required from \xe2\x80\x98class std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>\xe2\x80\x99\n'}
+[5.801327] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:51:   required from here\n'}
+[5.801405] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional:552:15: error: no type named \xe2\x80\x98type\xe2\x80\x99 in \xe2\x80\x98struct std::result_of<void (AddTwoIntsClient::*&())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>\xe2\x80\x99\n'}
+[5.801483] (cpp_pubsub) StdoutLine: {'line': b'  552 |         using _Res_type_impl\n'}
+[5.801557] (cpp_pubsub) StdoutLine: {'line': b'      |               ^~~~~~~~~~~~~~\n'}
+[5.801630] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional: In substitution of \xe2\x80\x98template<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [with _Fn = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _CallArgs = std::tuple<_UTypes ...>; _BArgs = {}; _Functor = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _Bound_args = {}]\xe2\x80\x99:\n'}
+[5.801716] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional:556:8:   required by substitution of \xe2\x80\x98template<class _Functor, class ... _Bound_args> template<class _CallArgs> using std::_Bind<_Functor(_Bound_args ...)>::_Res_type = std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl<_Functor, _CallArgs, _Bound_args ...> [with _CallArgs = std::tuple<_UTypes ...>; _Functor = void (AddTwoIntsClient::*)(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >); _Bound_args = {}]\xe2\x80\x99\n'}
+[5.801805] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional:589:2:   required from \xe2\x80\x98class std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>\xe2\x80\x99\n'}
+[5.801881] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:51:   required from here\n'}
+[5.801956] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/functional:552:15: error: no type named \xe2\x80\x98type\xe2\x80\x99 in \xe2\x80\x98struct std::result_of<void (AddTwoIntsClient::*&())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>\xe2\x80\x99\n'}
+[5.802038] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp: In member function \xe2\x80\x98void AddTwoIntsClient::callbackCallAddtwoInts(rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFuture)\xe2\x80\x99:\n'}
+[5.802115] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:5: error: invalid use of non-static member function \xe2\x80\x98rclcpp::Logger rclcpp::Node::get_logger() const\xe2\x80\x99\n'}
+[5.802190] (cpp_pubsub) StdoutLine: {'line': b'   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);\n'}
+[5.802264] (cpp_pubsub) StdoutLine: {'line': b'      |     ^~~~~~~~~~~\n'}
+[5.802352] (cpp_pubsub) StdoutLine: {'line': b'In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28,\n'}
+[5.802429] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22,\n'}
+[5.802507] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172:\n'}
+[5.802581] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:144:3: note: declared here\n'}
+[5.802656] (cpp_pubsub) StdoutLine: {'line': b'  144 |   get_logger() const;\n'}
+[5.802730] (cpp_pubsub) StdoutLine: {'line': b'      |   ^~~~~~~~~~\n'}
+[5.802806] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:5: error: template argument 1 is invalid\n'}
+[5.802881] (cpp_pubsub) StdoutLine: {'line': b'   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);\n'}
+[5.802954] (cpp_pubsub) StdoutLine: {'line': b'      |     ^~~~~~~~~~~\n'}
+[5.803027] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:5: error: template argument 1 is invalid\n'}
+[5.803100] (cpp_pubsub) StdoutLine: {'line': b'   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);\n'}
+[5.803173] (cpp_pubsub) StdoutLine: {'line': b'      |     ^~~~~~~~~~~\n'}
+[5.803245] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:5: error: template argument 1 is invalid\n'}
+[5.803331] (cpp_pubsub) StdoutLine: {'line': b'   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);\n'}
+[5.803407] (cpp_pubsub) StdoutLine: {'line': b'      |     ^~~~~~~~~~~\n'}
+[5.803480] (cpp_pubsub) StdoutLine: {'line': b'In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24:\n'}
+[5.803554] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:23: error: invalid use of member function \xe2\x80\x98rclcpp::Logger rclcpp::Node::get_logger() const\xe2\x80\x99 (did you forget the \xe2\x80\x98()\xe2\x80\x99 ?)\n'}
+[5.803630] (cpp_pubsub) StdoutLine: {'line': b'   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);\n'}
+[5.803703] (cpp_pubsub) StdoutLine: {'line': b'      |                       ^\n'}
+[5.803776] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:30:23: error: invalid use of member function \xe2\x80\x98rclcpp::Logger rclcpp::Node::get_logger() const\xe2\x80\x99 (did you forget the \xe2\x80\x98()\xe2\x80\x99 ?)\n'}
+[5.803852] (cpp_pubsub) StdoutLine: {'line': b'   30 |     RCLCPP_INFO(this->get_logger, "Sum: %d", (int)response->sum);\n'}
+[5.803925] (cpp_pubsub) StdoutLine: {'line': b'      |                       ^\n'}
+[5.803998] (cpp_pubsub) StdoutLine: {'line': b'In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24,\n'}
+[5.804071] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20,\n'}
+[5.804150] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[5.804229] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[5.804314] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22,\n'}
+[5.804392] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38,\n'}
+[5.804464] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[5.804537] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21:\n'}
+[5.804610] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp: In instantiation of \xe2\x80\x98rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(SharedRequest, CallbackT&&) [with CallbackT = std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = 0; ServiceT = example_interfaces::srv::AddTwoInts; SharedRequest = std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >]\xe2\x80\x99:\n'}
+[5.804699] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:32:   required from here\n'}
+[5.804772] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:678:22: error: no matching function for call to \xe2\x80\x98std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>::function(<brace-enclosed initializer list>)\xe2\x80\x99\n'}
+[5.804847] (cpp_pubsub) StdoutLine: {'line': b'  678 |       std::make_tuple(\n'}
+[5.804920] (cpp_pubsub) StdoutLine: {'line': b'      |       ~~~~~~~~~~~~~~~^\n'}
+[5.804992] (cpp_pubsub) StdoutLine: {'line': b'  679 |         CallbackType{std::forward<CallbackT>(cb)},\n'}
+[5.805066] (cpp_pubsub) StdoutLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[5.805140] (cpp_pubsub) StdoutLine: {'line': b'  680 |         shared_future,\n'}
+[5.805213] (cpp_pubsub) StdoutLine: {'line': b'      |         ~~~~~~~~~~~~~~\n'}
+[5.805294] (cpp_pubsub) StdoutLine: {'line': b'  681 |         std::move(promise)));\n'}
+[5.805373] (cpp_pubsub) StdoutLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~\n'}
+[5.805445] (cpp_pubsub) StdoutLine: {'line': b'In file included from /usr/include/c++/13/functional:59:\n'}
+[5.805516] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:435:9: note: candidate: \xe2\x80\x98template<class _Functor, class _Constraints> std::function<_Res(_ArgTypes ...)>::function(_Functor&&) [with _Constraints = _Functor; _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}]\xe2\x80\x99\n'}
+[5.805594] (cpp_pubsub) StdoutLine: {'line': b'  435 |         function(_Functor&& __f)\n'}
+[5.805666] (cpp_pubsub) StdoutLine: {'line': b'      |         ^~~~~~~~\n'}
+[5.805740] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:435:9: note:   template argument deduction/substitution failed:\n'}
+[5.805813] (cpp_pubsub) StdoutLine: {'line': b'In file included from /usr/include/c++/13/bits/stl_pair.h:60,\n'}
+[5.805885] (cpp_pubsub) StdoutLine: {'line': b'                 from /usr/include/c++/13/bits/stl_algobase.h:64,\n'}
+[5.805958] (cpp_pubsub) StdoutLine: {'line': b'                 from /usr/include/c++/13/algorithm:60,\n'}
+[5.806036] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:11,\n'}
+[5.806108] (cpp_pubsub) StdoutLine: {'line': b'                 from /opt/ros/jazzy/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7,\n'}
+[5.806179] (cpp_pubsub) StdoutLine: {'line': b'                 from /home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:1:\n'}
+[5.806250] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/type_traits: In substitution of \xe2\x80\x98template<bool _Cond, class _Tp> using std::__enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]\xe2\x80\x99:\n'}
+[5.806337] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:353:8:   required by substitution of \xe2\x80\x98template<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using std::function<_Res(_ArgTypes ...)>::_Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>::_Callable<std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>, std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>, std::__invoke_result<std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>&, std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > > > >; _Tp = void; _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}]\xe2\x80\x99\n'}
+[5.806427] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:434:9:   required from \xe2\x80\x98rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(SharedRequest, CallbackT&&) [with CallbackT = std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = 0; ServiceT = example_interfaces::srv::AddTwoInts; SharedRequest = std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >]\xe2\x80\x99\n'}
+[5.806510] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:32:   required from here\n'}
+[5.806585] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/type_traits:116:11: error: no type named \xe2\x80\x98type\xe2\x80\x99 in \xe2\x80\x98struct std::enable_if<false, void>\xe2\x80\x99\n'}
+[5.806668] (cpp_pubsub) StdoutLine: {'line': b'  116 |     using __enable_if_t = typename enable_if<_Cond, _Tp>::type;\n'}
+[5.806742] (cpp_pubsub) StdoutLine: {'line': b'      |           ^~~~~~~~~~~~~\n'}
+[5.806816] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp: In instantiation of \xe2\x80\x98rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::async_send_request(SharedRequest, CallbackT&&) [with CallbackT = std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = 0; ServiceT = example_interfaces::srv::AddTwoInts; SharedRequest = std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >]\xe2\x80\x99:\n'}
+[5.806900] (cpp_pubsub) StdoutLine: {'line': b'/home/joel-jebitto/ROS_workspace/src/cpp_pubsub/src/add_two_ints_client.cpp:22:32:   required from here\n'}
+[5.806979] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:404:7: note: candidate: \xe2\x80\x98std::function<_Res(_ArgTypes ...)>::function(std::function<_Res(_ArgTypes ...)>&&) [with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}]\xe2\x80\x99\n'}
+[5.807054] (cpp_pubsub) StdoutLine: {'line': b'  404 |       function(function&& __x) noexcept\n'}
+[5.807126] (cpp_pubsub) StdoutLine: {'line': b'      |       ^~~~~~~~\n'}
+[5.807199] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:404:27: note:   no known conversion for argument 1 from \xe2\x80\x98std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>\xe2\x80\x99 to \xe2\x80\x98std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>&&\xe2\x80\x99\n'}
+[5.807284] (cpp_pubsub) StdoutLine: {'line': b'  404 |       function(function&& __x) noexcept\n'}
+[5.807367] (cpp_pubsub) StdoutLine: {'line': b'      |                ~~~~~~~~~~~^~~\n'}
+[5.807441] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:386:7: note: candidate: \xe2\x80\x98std::function<_Res(_ArgTypes ...)>::function(const std::function<_Res(_ArgTypes ...)>&) [with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}]\xe2\x80\x99\n'}
+[5.807518] (cpp_pubsub) StdoutLine: {'line': b'  386 |       function(const function& __x)\n'}
+[5.807592] (cpp_pubsub) StdoutLine: {'line': b'      |       ^~~~~~~~\n'}
+[5.807665] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:386:32: note:   no known conversion for argument 1 from \xe2\x80\x98std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>\xe2\x80\x99 to \xe2\x80\x98const std::function<void(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>&\xe2\x80\x99\n'}
+[5.807743] (cpp_pubsub) StdoutLine: {'line': b'  386 |       function(const function& __x)\n'}
+[5.807816] (cpp_pubsub) StdoutLine: {'line': b'      |                ~~~~~~~~~~~~~~~~^~~\n'}
+[5.807894] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:375:7: note: candidate: \xe2\x80\x98std::function<_Res(_ArgTypes ...)>::function(std::nullptr_t) [with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}; std::nullptr_t = std::nullptr_t]\xe2\x80\x99\n'}
+[5.807976] (cpp_pubsub) StdoutLine: {'line': b'  375 |       function(nullptr_t) noexcept\n'}
+[5.808052] (cpp_pubsub) StdoutLine: {'line': b'      |       ^~~~~~~~\n'}
+[5.808125] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:375:16: note:   no known conversion for argument 1 from \xe2\x80\x98std::_Bind<void (AddTwoIntsClient::*())(std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >)>\xe2\x80\x99 to \xe2\x80\x98std::nullptr_t\xe2\x80\x99\n'}
+[5.808204] (cpp_pubsub) StdoutLine: {'line': b'  375 |       function(nullptr_t) noexcept\n'}
+[5.808283] (cpp_pubsub) StdoutLine: {'line': b'      |                ^~~~~~~~~\n'}
+[5.808366] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:368:7: note: candidate: \xe2\x80\x98std::function<_Res(_ArgTypes ...)>::function() [with _Res = void; _ArgTypes = {std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >}]\xe2\x80\x99\n'}
+[5.808443] (cpp_pubsub) StdoutLine: {'line': b'  368 |       function() noexcept\n'}
+[5.808517] (cpp_pubsub) StdoutLine: {'line': b'      |       ^~~~~~~~\n'}
+[5.808596] (cpp_pubsub) StdoutLine: {'line': b'/usr/include/c++/13/bits/std_function.h:368:7: note:   candidate expects 0 arguments, 1 provided\n'}
+[5.808670] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:682:69: error: no matching function for call to \xe2\x80\x98rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFutureAndRequestId::SharedFutureAndRequestId(<brace-enclosed initializer list>)\xe2\x80\x99\n'}
+[5.808747] (cpp_pubsub) StdoutLine: {'line': b'  682 |     return SharedFutureAndRequestId{std::move(shared_future), req_id};\n'}
+[5.808829] (cpp_pubsub) StdoutLine: {'line': b'      |                                                                     ^\n'}
+[5.808903] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:66:3: note: candidate: \xe2\x80\x98rclcpp::detail::FutureAndRequestId<FutureT>::FutureAndRequestId(FutureT, int64_t) [with FutureT = std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >; int64_t = long int]\xe2\x80\x99\n'}
+[5.808981] (cpp_pubsub) StdoutLine: {'line': b'   66 |   FutureAndRequestId(FutureT impl, int64_t req_id)\n'}
+[5.809054] (cpp_pubsub) StdoutLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~\n'}
+[5.809126] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75: note:   inherited here\n'}
+[5.809198] (cpp_pubsub) StdoutLine: {'line': b'  465 |     using detail::FutureAndRequestId<std::shared_future<SharedResponse>>::FutureAndRequestId;\n'}
+[5.809277] (cpp_pubsub) StdoutLine: {'line': b'      |                                                                           ^~~~~~~~~~~~~~~~~~\n'}
+[5.809360] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75: note:   conversion of argument 2 would be ill-formed:\n'}
+[5.809460] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:108:3: note: candidate: \xe2\x80\x98rclcpp::detail::FutureAndRequestId<FutureT>::FutureAndRequestId(rclcpp::detail::FutureAndRequestId<FutureT>&&) [with FutureT = std::shared_future<std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > > >]\xe2\x80\x99\n'}
+[5.809569] (cpp_pubsub) StdoutLine: {'line': b'  108 |   FutureAndRequestId(FutureAndRequestId && other) noexcept = default;\n'}
+[5.809657] (cpp_pubsub) StdoutLine: {'line': b'      |   ^~~~~~~~~~~~~~~~~~\n'}
+[5.809735] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75: note:   inherited here\n'}
+[5.809811] (cpp_pubsub) StdoutLine: {'line': b'  465 |     using detail::FutureAndRequestId<std::shared_future<SharedResponse>>::FutureAndRequestId;\n'}
+[5.809887] (cpp_pubsub) StdoutLine: {'line': b'      |                                                                           ^~~~~~~~~~~~~~~~~~\n'}
+[5.809991] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:465:75: note:   candidate expects 1 argument, 2 provided\n'}
+[5.810072] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:462:10: note: candidate: \xe2\x80\x98rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFutureAndRequestId::SharedFutureAndRequestId(rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedFutureAndRequestId&&)\xe2\x80\x99\n'}
+[5.810149] (cpp_pubsub) StdoutLine: {'line': b'  462 |   struct SharedFutureAndRequestId\n'}
+[5.810225] (cpp_pubsub) StdoutLine: {'line': b'      |          ^~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[5.810311] (cpp_pubsub) StdoutLine: {'line': b'/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:462:10: note:   candidate expects 1 argument, 2 provided\n'}
+[5.827648] (-) TimerEvent: {}
+[5.928007] (-) TimerEvent: {}
+[6.028310] (-) TimerEvent: {}
+[6.128520] (-) TimerEvent: {}
+[6.228882] (-) TimerEvent: {}
+[6.329102] (-) TimerEvent: {}
+[6.429354] (-) TimerEvent: {}
+[6.501711] (cpp_pubsub) StdoutLine: {'line': b'\n'}
+[6.502206] (cpp_pubsub) StdoutLine: {'line': b'[2/4] Building CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o\x1b[K\n'}
+[6.502543] (cpp_pubsub) StdoutLine: {'line': b'ninja: build stopped: subcommand failed.\n'}
+[6.506542] (cpp_pubsub) CommandEnded: {'returncode': 1}
+[6.529699] (-) TimerEvent: {}
+[6.530745] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[6.542531] (-) EventReactorShutdown: {}

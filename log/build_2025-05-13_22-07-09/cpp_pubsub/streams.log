@@ -1,0 +1,33 @@
+[0.018s] Invoking command in '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel-jebitto/ROS_workspace/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joel-jebitto/ROS_workspace/build/cpp_pubsub -- -j8 -l8
+[0.040s] 
+[0.040s] [0/1] Re-running CMake...[K
+[0.053s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.311s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.410s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.454s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.512s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.653s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.655s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.719s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.788s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[0.927s] -- Configuring done (0.9s)
+[0.931s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[0.931s]   Cannot find source file:
+[0.932s] 
+[0.932s]     src/add_two_ints.cpp
+[0.932s] 
+[0.932s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.932s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.932s]   .f95 .f03 .hip .ispc
+[0.932s] 
+[0.932s] [0m
+[0.934s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[0.934s]   No SOURCES given to target: add_two_ints
+[0.934s] 
+[0.934s] [0m
+[0.934s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.940s] [31mFAILED: [0mbuild.ninja 
+[0.940s] /usr/bin/cmake --regenerate-during-build -S/home/joel-jebitto/ROS_workspace/src/cpp_pubsub -B/home/joel-jebitto/ROS_workspace/build/cpp_pubsub
+[0.940s] ninja: error: rebuilding 'build.ninja': subcommand failed
+[0.941s] Invoked command in '/home/joel-jebitto/ROS_workspace/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel-jebitto/ROS_workspace/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/joel-jebitto/ROS_workspace/build/cpp_pubsub -- -j8 -l8
