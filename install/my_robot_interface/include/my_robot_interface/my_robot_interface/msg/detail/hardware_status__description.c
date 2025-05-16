@@ -104,7 +104,7 @@ my_robot_interface__msg__HardwareStatus__get_individual_type_description_source(
   static const rosidl_runtime_c__type_description__TypeSource source = {
     {my_robot_interface__msg__HardwareStatus__TYPE_NAME, 37, 37},
     {msg_encoding, 3, 3},
-    {toplevel_type_raw_source, 62, 62},
+    {toplevel_type_raw_source, 63, 63},
   };
   return &source;
 }
