@@ -1,0 +1,21 @@
+[0.010s] Invoking command in '/home/joel-jebitto/ROS_workspace/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel-jebitto/ROS_workspace/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joel-jebitto/ROS_workspace/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/joel-jebitto/ROS_workspace/install/my_robot_bringup
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.101s] -- The CXX compiler identification is GNU 13.3.0
+[0.114s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.183s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.259s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.271s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.386s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.469s] [31mCMake Error at CMakeLists.txt:10 (instal):
+[0.469s]   Unknown CMake command "instal".
+[0.469s] 
+[0.469s] [0m
+[0.469s] -- Configuring incomplete, errors occurred!
+[0.472s] Invoked command in '/home/joel-jebitto/ROS_workspace/build/my_robot_bringup' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joel-jebitto/ROS_workspace/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/joel-jebitto/ROS_workspace/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/joel-jebitto/ROS_workspace/install/my_robot_bringup

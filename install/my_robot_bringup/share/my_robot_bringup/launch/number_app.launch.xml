@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="cpp_pubsub" exec="number_publisher" name="c2">
+    <remap from="number_publisher" to="c3" />
+    <param from="$(find-pkg-share my_robot_bringup)/config/number_app.yaml" />
+  </node>
+
+  <node pkg="cpp_pubsub" exec="number_counter" name="c1" />
+</launch>
